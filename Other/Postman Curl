@@ -1,0 +1,16 @@
+1. Member Point Registration API 
+========================================================================================
+curl --location --request POST 'member-pointregistration-external-app.us-e2.cloudhub.io/members/points/registraion' \
+--header 'x-cms-transactionId: hdsfhjdh-jxbv859-sjdf7643-3746bbdiuu' \
+--header 'x-cms-channel: Mobile' \
+--header 'X-Cms-OriginLanguage: ch' \
+--header 'X-Cms-OriginMarket: india' \
+--header 'Authorization: JWT' \
+--header 'Content-Type: application/json' \
+--data-raw '{"memberId":"A-0002",
+"transactionId":"TXN72y486",
+"amount":20000,
+"memberTier": "T1",
+"transactionDate": "12122012"}'
+
+========================================================================================

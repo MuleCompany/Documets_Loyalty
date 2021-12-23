@@ -1,0 +1,12 @@
+{
+	TimeStamp: Now(),
+	transactionId: vars.headers_var.'X-lyt-transactionId',
+	Name: p('apiName'),
+	FlowName: "post:\members\transactions:application\json:api-config",
+	BusinessProcessName: "Post Transaction SFDC",
+	Category: "Transaction",
+	OriginatingApplication: "Front-End",
+	DesinationApplication: "Salesforce",
+	CustomerId: vars.requestPayload_var.memberId,
+	txnState: "END"
+}
